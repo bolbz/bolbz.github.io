@@ -1,0 +1,205 @@
+.nav-link {
+	font-size: 2.0em;
+}
+
+.title_site {
+	font-size: 2.0em;
+	font-weight: bold;
+}
+
+img {
+	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.pills {
+	margin: 2% 2%;
+	display: flex;
+	justify-content: center;
+	font-size: 2em;
+}
+
+.row {
+	display: flex;
+	justify-content: space-around;
+}
+
+hr {
+	background-color: black;
+}
+
+
+/*portrait gandalf*/
+
+#gandalff {
+	position: relative;
+	width: 300px;
+	height: 372px;
+}
+
+#conteneur {
+	position: relative;
+	width: 300px;
+	margin-top: -345px;
+	height: 345px;
+	background-color: white;
+	opacity: 0.70;
+}
+
+#contenu {
+	position: relative;
+	width: 180px;
+	height: 70px;
+	margin-top: -280px;
+	color: black;
+	text-align: center;
+	background-color: grey;
+	border: 3px solid white;
+	opacity: 0.85;
+	border-radius: 20px;
+	margin-left: 50px;
+}
+
+#nom {
+	color: white;
+	font-size: 2.5em;
+	position: relative;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 120px;
+}
+
+.mille {
+	color: orange;
+}
+
+#gandalff:hover #conteneur {
+	opacity: 0;
+}
+
+#gandalff:hover #contenu {
+	opacity: 0;
+}
+
+#gandalff:hover #nom {
+	font-size: 1.5em;
+	padding-top: 100px;
+
+}
+
+
+/*portrait du Hobbit*/
+
+#hobbitt {
+	position: relative;
+	width: 300px;
+	height: 372px;
+}
+
+#conteneur_h {
+	position: relative;
+	width: 300px;
+	margin-top: -372px;
+	height: 372px;
+	background-color: grey;
+	opacity: 0.9;
+}
+
+#nom_h {
+	color: black;
+	font-size: 2.5em;
+	position: relative;
+	margin-top: -230px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 120px;
+	font-weight: bold;
+}
+
+#pippin {
+	display: none;
+}
+
+#hobbitt:hover #conteneur_h {
+	opacity: 0;
+}
+
+#hobbitt:hover #nom_h {
+	opacity: 0;
+}
+
+#hobbitt:hover #pippin {
+	color: white;
+	font-size: 2.5em;
+	position: relative;
+	margin-top: -30px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 120px;
+	font-weight: bold;
+}
+
+/*Portrait Gimli	*/
+
+#gimli {
+	position: relative;
+	width: 300px;
+	height:350px;
+}
+
+#conteneur_g {
+	position: relative;
+	width: 300px;
+	margin-top: -250px;
+	height: 250px;
+	background-color:white;
+	opacity: 0.70;
+}
+
+#contenu_g {
+	position: relative;
+	width: 180px;
+	height: 70px;
+	margin-top: -200px;
+	color: black;
+	text-align: center;
+	background-color: grey;
+	border: 3px solid white;
+	opacity: 0.85;
+	border-radius: 20px;
+	margin-left: 50px;
+}
+
+#nom_g {
+	color: white;
+	font-size: 2.5em;
+	position: relative;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 120px;
+}
+
+#gimli:hover #conteneur_g {
+	opacity: 0;
+}
+
+#gimli:hover #contenu_g {
+	opacity: 0;
+}
+
+#gimli:hover #nom_g {
+	font-size: 1.5em;
+	padding-top: 80px;
+
+}
+
+
+th {
+	background-color: grey;
+}
+
+.couleur {
+	background-color: #e6e6e6;
+}
